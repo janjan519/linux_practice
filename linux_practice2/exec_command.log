@@ -1,0 +1,210 @@
+    1  docker stop debian
+    2  docker stop debian
+    3  ls /
+    4  ls /usr
+    5  pwd
+    6  cd /root
+    7  pwd
+    8  cd usr
+    9  cd /usr
+   10  cd /home
+   11  mkdir test1
+   12  ls
+   13  mkdir test2/test3
+   14  mkdir -p test2/test3
+   15  ls test2
+   16  cd /home
+   17  touch test1/index.php
+   18  ls test1
+   19  cd usr
+   20  cd /usr
+   21  cd /home/test1 && ls
+   22  cd /home/test1
+   23  cp index.php copy.php
+   24  ls
+   25  cd /home
+   26  cp -r test1 test4
+   27  ls
+   28  ls test4
+   29  cd /home
+   30  mv test2/test3 test3
+   31  ls
+   32  cd /home
+   33  mv test4 test1_copy
+   34  ls
+   35  cd /home
+   36  ls test1
+   37  rm test1/copy.php
+   38  ls test1
+   39  cd /home
+   40  rm -r test3
+   41  ls
+   42  ls test1_copy
+   43  cd /home
+   44  rm test1_copy/*.php
+   45  ls
+   46  ls test1_copy
+   47  ls
+   48  cd /home
+   49  echo '# Hello World' > README.md
+   50  cat README.md
+   51  echo '# Server Lesson' > README.md
+   52  cat README.md
+   53  echo 'Linux Practice' >> README.md
+   54  cat README.md
+   55  echo '-----------------' >> README.md
+   56  cat README.md
+   57  apt update -y && apt install -y vim
+   58  cd /home
+   59  vi README.md
+   60  docker compose version
+   61  docker stop debian
+   62  docker start debian
+   63  q
+   64  docker ps
+   65  exit
+   66  ls /usr
+   67  ls
+   68  cd /root
+   69  pwd
+   70  ls
+   71  mkdir server_lesson && cd server_lesson
+   72  apt update -y && apt install -y git
+   73  git version
+   74  git init
+   75  touch first.txt
+   76  git status
+   77  ls
+   78  mkdir -p linux_practice1/public
+   79  ls
+   80  cd linux_practice1/
+   81  touch public/index.php
+   82  ls
+   83  cd public/
+   84  ls
+   85  cd ./
+   86  cd ../
+   87  git add .
+   88  git status
+   89  git status
+   90  cd ../
+   91  git commit -m 'practice 1-1'
+   92  docker stop debian
+   93  exit
+   94  git config user.name
+   95  git config --global user.email
+   96  git config --global user.name
+   97  git status
+   98  ls
+   99  cd root
+  100  ls
+  101  cd server_lesson/
+  102  ls
+  103  git status
+  104  git config --global user.email
+  105  git config --global user.email "207494690+janjan519@users.noreply.github.com"
+  106  git config --global user.name "janjan519"
+  107  git commit -m 'practice1-1'
+  108  ls
+  109  cd linux_practice1/public/
+  110  ls
+  111  cp index.php index_bk.php
+  112  ls
+  113  git add .
+  114  git status
+  115  git commit -m 'practice2-2 done'
+  116  cd ../
+  117  ls
+  118  cp -r public tmp
+  119  ls
+  120  cd tmp
+  121  ls
+  122  git add .
+  123  git add.
+  124  git -v
+  125  git add .
+  126  git status
+  127  git commit -m 'practice1-3 done'
+  128  git status
+  129  cd ./
+  130  cd ../
+  131  ls
+  132  rm tmp/index_bk.php 
+  133  cd tmp
+  134  ls
+  135  git status
+  136  git add .
+  137  git commit -m 'practice 1-3 done'
+  138  cd ../
+  139  cd ../
+  140  ls
+  141  touch README.md
+  142  ls
+  143  vim README.md 
+  144  cat README.md 
+  145  git status
+  146  git add .
+  147  git commit -m 'practice 1-5 done'
+  148  ls
+  149  mkdir linux_practice2
+  150  ls
+  151  mkdir linux_practice2/documents
+  152  ls
+  153  cd linux_practice2
+  154  ls
+  155  ls
+  156  cd documents/
+  157  ls
+  158  touch gizumo{01..50}.md
+  159  ls
+  160  git status
+  161  git add .
+  162  git commit -m 'practice 2-1 done'
+  163  cd ../
+  164  ls
+  165  mkdir trash
+  166  ls
+  167  mv gizumo{20..40}.md trash/.
+  168  ls
+  169  cd documents/
+  170  ls
+  171  mv gizumo{20..40}.md trash/.
+  172  mv gizumo{20..40}.md ../trash/.
+  173  ls
+  174  cd ../
+  175  ls
+  176  cd trash
+  177  ls
+  178  git add .
+  179  git status
+  180  git commit -m 'practice 2-2 done'
+  181  exit
+  182  ls
+  183  cd root
+  184  ls
+  185  cd server_lesson/
+  186  ls
+  187  touch linux_practice2/.gitignore
+  188  ls
+  189  cd linux_practice2
+  190  ls
+  191  ls -a
+  192  vi .gitignore 
+  193  git add .
+  194  git commit -m 'practice 2-3,4 done'
+  195  cat .gitignore 
+  196  history 300
+  197  ls
+  198  mkdir exec_command.log
+  199  vi exec_command.log/
+  200  vim exec_command.log/
+  201  cat exec_command.log/
+  202  ls
+  203  rm exec_command.log/
+  204  ls
+  205  rm -r exec_command.log/
+  206  ls
+  207  touch exec_command.log
+  208  ls
+  209  vi exec_command.log 
+  210  history 300 > exec_command.log 
